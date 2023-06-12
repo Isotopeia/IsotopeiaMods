@@ -1,0 +1,32 @@
+/* SPECIFIC MOD INFO:
+ * Simple, boilerplate building mod made by kateistrans a while back to demonstrate how to use the modding system.
+ */
+
+
+/* GENERAL NOTES FOR ALL MODS:
+ * Copy everything past this comment into the field shown in 
+ * https://github.com/kateistrans/IsotopeiaMods/blob/main/img/adding.png?raw=true
+ * to get the mod installed.
+ */
+
+{
+    "buildings":{
+        "e":[
+            {
+                "price":1000000000000,
+                "name":"Quantum photon simulator",
+                "perSecond":100000,
+                "id":"quPhotonSimulator"
+            }
+        ],
+        "en":[
+            {
+                "price":1000000000000,
+                "name":"Quantum computer",
+                "perSecond":100000,
+                "id":"quComputer"
+            }
+        ]
+    },
+    "customBehaviors":""
+}
